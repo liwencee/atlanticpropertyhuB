@@ -815,3 +815,46 @@ h2.center { text-align: center; max-width: 40ch; margin-left: auto; margin-right
 .cta-banner h2 { color: var(--white); }
 .cta-banner p { color: rgba(255,255,255,0.8); margin: 0 auto 1.6em; }
 .cta-banner .hero-cta { justify-content: center; }
+
+/* ---------- WhatsApp chat button ---------- */
+.whatsapp-fab {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 150;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #25D366;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(14, 32, 68, 0.35);
+  transition: transform var(--dur) var(--ease), box-shadow var(--dur) var(--ease);
+}
+.whatsapp-fab:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 14px 36px rgba(14, 32, 68, 0.45);
+  color: #fff;
+}
+.whatsapp-fab svg { width: 30px; height: 30px; position: relative; z-index: 1; }
+.whatsapp-fab-ping {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: #25D366;
+  opacity: 0.6;
+  animation: whatsappPing 2.2s ease-out infinite;
+}
+@keyframes whatsappPing {
+  0% { transform: scale(1); opacity: 0.55; }
+  100% { transform: scale(1.7); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .whatsapp-fab-ping { animation: none; display: none; }
+}
+@media (max-width: 560px) {
+  .whatsapp-fab { right: 16px; bottom: 16px; width: 52px; height: 52px; }
+  .whatsapp-fab svg { width: 26px; height: 26px; }
+}
