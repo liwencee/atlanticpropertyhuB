@@ -206,7 +206,7 @@
         "\n\nMessage:\n" + (data.message || "(no message provided)")
       );
 
-      window.location.href = "mailto:info@atlanticprophub.com?subject=" + subject + "&body=" + body;
+      window.location.href = "mailto:info@atlanticprophub.com.ng?subject=" + subject + "&body=" + body;
 
       status.textContent = "Thank you, " + data.fullName + ". Your email client is opening so you can send your enquiry.";
       status.className = "form-status success";
