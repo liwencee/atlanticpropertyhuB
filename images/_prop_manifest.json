@@ -1,0 +1,114 @@
+[
+  {
+    "src": "prop-01.jpg",
+    "w": 955,
+    "h": 637,
+    "orientation": "landscape",
+    "kb": 88
+  },
+  {
+    "src": "prop-02.jpg",
+    "w": 948,
+    "h": 632,
+    "orientation": "landscape",
+    "kb": 98
+  },
+  {
+    "src": "prop-03.jpg",
+    "w": 1080,
+    "h": 720,
+    "orientation": "landscape",
+    "kb": 110
+  },
+  {
+    "src": "prop-04.jpg",
+    "w": 1080,
+    "h": 720,
+    "orientation": "landscape",
+    "kb": 65
+  },
+  {
+    "src": "prop-05.jpg",
+    "w": 1080,
+    "h": 720,
+    "orientation": "landscape",
+    "kb": 68
+  },
+  {
+    "src": "prop-06.jpg",
+    "w": 1080,
+    "h": 720,
+    "orientation": "landscape",
+    "kb": 87
+  },
+  {
+    "src": "prop-07.jpg",
+    "w": 1080,
+    "h": 720,
+    "orientation": "landscape",
+    "kb": 59
+  },
+  {
+    "src": "prop-08.jpg",
+    "w": 1080,
+    "h": 720,
+    "orientation": "landscape",
+    "kb": 78
+  },
+  {
+    "src": "prop-09.jpg",
+    "w": 720,
+    "h": 1080,
+    "orientation": "portrait",
+    "kb": 68
+  },
+  {
+    "src": "prop-10.jpg",
+    "w": 1080,
+    "h": 720,
+    "orientation": "landscape",
+    "kb": 53
+  },
+  {
+    "src": "prop-11.jpg",
+    "w": 1035,
+    "h": 690,
+    "orientation": "landscape",
+    "kb": 68
+  },
+  {
+    "src": "prop-12.jpg",
+    "w": 1080,
+    "h": 720,
+    "orientation": "landscape",
+    "kb": 47
+  },
+  {
+    "src": "prop-13.jpg",
+    "w": 1080,
+    "h": 720,
+    "orientation": "landscape",
+    "kb": 40
+  },
+  {
+    "src": "prop-14.jpg",
+    "w": 1080,
+    "h": 720,
+    "orientation": "landscape",
+    "kb": 59
+  },
+  {
+    "src": "prop-15.jpg",
+    "w": 1080,
+    "h": 720,
+    "orientation": "landscape",
+    "kb": 66
+  },
+  {
+    "src": "prop-16.jpg",
+    "w": 1080,
+    "h": 720,
+    "orientation": "landscape",
+    "kb": 39
+  }
+]
