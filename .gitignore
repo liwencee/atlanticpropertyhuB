@@ -1,0 +1,21 @@
+# Secrets — never commit (rotate immediately if one ever lands in history)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OS / editor cruft
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+
+# Build/scratch artifacts
+images/_prop_manifest.json
+*.log
